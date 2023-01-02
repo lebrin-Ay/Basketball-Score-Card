@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Score Card</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <div class="container">
+        <div>
+          <h3 class="title">HOME</h3>
+
+          <div class="score-box">
+            <h1 class="points" id="points-score">0</h1>
+          </div>
+
+          <div class="add-points">
+            <button onclick="addOne()">+1</button>
+            <button onclick="addTwo()">+2</button>
+            <button onclick="addThree()">+3</button>
+          </div>
+        </div>
+        <div>
+          <h3>GUEST</h3>
+
+          <div class="score-box">
+            <h1 class="points" id="points-score-guest">0</h1>
+          </div>
+
+          <div class="add-points">
+            <button onclick="addOneGuest()">+1</button>
+            <button onclick="addTwoGuest()">+2</button>
+            <button onclick="addThreeGuest()">+3</button>
+          </div>
+          <button class="btn-new" id="reset">New Game</button>
+        </div>
+        
+      </div>
+      
+    </main>
+
+  
+
+    <script src="./app.js"></script>
+  </body>
+</html>

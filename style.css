@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 80%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: #1F2937;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: Poppins, sans-serif;
+    font-weight: 700;
+    color: #EEEEEE;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.score-box {
+    height: 125px;
+    width: 170px;
+    border-radius: 5px;
+    background-color: #080001;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+                                                
+
+}
+
+.add-points {
+    width: 170px;
+    height: 45px;
+    margin-top: 26px;
+}
+
+button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    color: #9AABD8;
+    /* border: none; */
+    height: 45px;
+    width: 45px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: center;
+    margin-left: 8px;    
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-0.25em);
+}
+
+.btn-new {
+  width: 100px;
+  background-color: #1F2937;
+  text-align: center;
+  position: relative;
+  right: 7rem;
+  top: 1rem;
+}
