@@ -36,5 +36,5 @@ function addThreeGuest() {
 }
 
 
-let resetScore = document.getElementById('reset');
-resetScore.reset();
+// let resetScore = document.getElementById('reset');
+// resetScore.reset();

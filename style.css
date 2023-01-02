@@ -77,12 +77,3 @@ button:hover {
     cursor: pointer;
     transform: translateY(-0.25em);
 }
-
-.btn-new {
-  width: 100px;
-  background-color: #1F2937;
-  text-align: center;
-  position: relative;
-  right: 7rem;
-  top: 1rem;
-}
